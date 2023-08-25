@@ -13,7 +13,18 @@ meta:
 ## Secure origin connections
 
 {{<render file="_origin-secure-dns.md">}}
-{{<render file="_origin-secure-connections.md">}}
+
+### Application layer
+
+{{<render file="_limit-external-connections-application.md" productFolder="learning-paths">}}
+
+### Transport Layer
+
+{{<render file="_limit-external-connections-transport.md" productFolder="learning-paths">}}
+
+### Network Layer
+
+{{<render file="_limit-external-connections-network.md" productFolder="learning-paths">}}
 
 ## Monitor origin health
 
@@ -25,7 +36,7 @@ meta:
 
 ### Block traffic
 
-For more details, refer to [Secure your website](/fundamentals/get-started/task-guides/secure-your-website/).
+For more details, refer to [Secure your website](/learning-paths/application-security/).
 
 ### Increase caching
 
